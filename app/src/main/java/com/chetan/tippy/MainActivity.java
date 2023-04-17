@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
                 number += ".";
                 break;
             case R.id.button_PlusMinus:
-                number += "-";
+                number = "-" + number;
                 break;
         }
         ed1.setText(number);
